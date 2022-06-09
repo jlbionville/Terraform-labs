@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "terraform_bucket" {
+resource "aws_s3_bucket" "bucket_website" {
   bucket = "alfaco-static-website"
 
   tags = {
